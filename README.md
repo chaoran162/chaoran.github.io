@@ -7,23 +7,22 @@ Portfolio of mime
 I am a dual-degree student passionate about using data analysis and machine learning to solve real-world business problems. With experience in auditing and statistical analysis, I aim to bridge the gap between technical data insights and business decision-making.
 
 
-### 🎓 Education
+###  Education
 
 **Capital University of Economics and Business (CUEB) & University of Arizona**
 *B.S. in Data Science (Dual Degree Program)* | *Expected Graduation: [Year]*
 * **Relevant Coursework:** Distributed Computing, Machine Learning, Statistics, Data Analysis.
 
----
 
-### 💼 Work Experience
+
+###  Work Experience
 
 **Deloitte Club**
 *Member & Campus Ambassador* | *June 2024 – Present*
 * Served as a liaison between Deloitte and the university student body, organizing campus events and promoting career opportunities.
 
----
 
-### 🛠️ Projects
+### Projects
 
 
 **Amazon Sales Trends Analysis**
@@ -45,7 +44,7 @@ I am a dual-degree student passionate about using data analysis and machine lear
 * Designed and deployed a web service program as a final course project.
 
 
----
+
 
 ### 🏆 Leadership & Certifications
 
