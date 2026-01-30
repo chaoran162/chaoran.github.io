@@ -10,7 +10,7 @@ I am a dual-degree student passionate about using data analysis and machine lear
 ###  Education
 
 **Capital University of Economics and Business (CUEB) & University of Arizona**
-*B.S. in Data Science (Dual Degree Program)* | *Expected Graduation: [Year]*
+*B.S. in Data Science (Dual Degree Program)* 
 * **Relevant Coursework:** Distributed Computing, Machine Learning, Statistics, Data Analysis.
 
 
@@ -46,13 +46,13 @@ I am a dual-degree student passionate about using data analysis and machine lear
 
 
 
-### 🏆 Leadership & Certifications
+###  Leadership & Certifications
 
 * **CASI Level 1 Ski Instructor:** Certified Association of Canadian Ski Instructors.
 * **Student Union, School of Data Science:** Head of Publicity Department (Sep 2023 – June 2025).
 
 ---
 
-### 📫 Contact
+###  Contact
 
 * **Email:** [chenchaoran@arizona.edu]
