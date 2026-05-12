@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chaoran Chen | Data Science Portfolio</title>
+    <meta
+      name="description"
+      content="Chaoran Chen's data science portfolio: machine learning, NLP, financial sentiment analysis, and business analytics projects."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="#top" aria-label="Chaoran Chen portfolio home">
+        Chaoran Chen
+      </a>
+      <nav class="site-nav" aria-label="Portfolio sections">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#growth">DATA 498</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero band">
+        <div class="hero-copy">
+          <p class="eyebrow">Data Science Portfolio</p>
+          <h1>Data analysis, machine learning, and financial NLP with reproducible project work.</h1>
+          <p class="lead">
+            I am a dual-degree data science student focused on turning messy datasets into
+            practical decisions. My recent work includes financial news sentiment analysis,
+            class-imbalanced machine learning, and statistical communication for finance.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="https://github.com/chaoran162" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button" href="mailto:chenchaoran@arizona.edu">Email</a>
+            <a class="button" href="#projects">View Projects</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Portfolio highlights">
+          <div class="stat">
+            <span>Capstone Focus</span>
+            <strong>NLP + Finance</strong>
+            <small>Sentiment, topic modeling, market regimes</small>
+          </div>
+          <div class="stat">
+            <span>ML Focus</span>
+            <strong>Class Imbalance</strong>
+            <small>Threshold tuning, PR-AUC, business value</small>
+          </div>
+          <div class="stat">
+            <span>Communication</span>
+            <strong>Reports + Posters</strong>
+            <small>Technical results explained clearly</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="band about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Building a portfolio around evidence, not just project titles.</h2>
+        </div>
+        <div class="about-text">
+          <p>
+            My strongest projects combine statistical reasoning with practical evaluation:
+            cleaning real datasets, choosing leakage-aware validation designs, comparing models,
+            and explaining when the evidence is limited. I am especially interested in data
+            analyst, machine learning, business analytics, and finance-oriented data science work.
+          </p>
+        </div>
+      </section>
+
+      <section class="band skills-band" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Skills</p>
+          <h2>Tools I used across my portfolio projects.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Programming</h3>
+            <p>Python, R, SQL, Git, GitHub, Markdown, LaTeX</p>
+          </article>
+          <article class="skill-card">
+            <h3>Data Analysis</h3>
+            <p>pandas, NumPy, data cleaning, EDA, feature engineering, reproducible workflows</p>
+          </article>
+          <article class="skill-card">
+            <h3>Machine Learning</h3>
+            <p>scikit-learn, XGBoost, Random Forest, Logistic Regression, LASSO, Naive Bayes, PCA</p>
+          </article>
+          <article class="skill-card">
+            <h3>NLP</h3>
+            <p>Dictionary sentiment, VADER, FinBERT, LDA topic modeling, text feature aggregation</p>
+          </article>
+          <article class="skill-card">
+            <h3>Evaluation</h3>
+            <p>Cross-validation, time-aware splits, threshold tuning, PR-AUC, F1, backtesting</p>
+          </article>
+          <article class="skill-card">
+            <h3>Communication</h3>
+            <p>Research reports, project posters, presentation dashboards, technical storytelling</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="band projects-band" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Selected work from DATA 498 and statistical machine learning.</h2>
+        </div>
+
+        <div class="project-stack">
+          <article class="project-card feature-card">
+            <div class="project-content">
+              <div class="project-kicker">DATA 498D Capstone | NLP Lead</div>
+              <h3>Does Financial News Sentiment Move the S&amp;P 500?</h3>
+              <p>
+                A group capstone project testing whether daily financial headlines contain
+                useful information about next-day S&amp;P 500 direction, returns, and simple
+                long/flat trading performance.
+              </p>
+              <div class="metric-row">
+                <div><strong>19,127</strong><span>raw headlines</span></div>
+                <div><strong>18,153</strong><span>cleaned headlines</span></div>
+                <div><strong>3,506</strong><span>daily observations</span></div>
+              </div>
+              <ul class="project-list">
+                <li>Owned the NLP feature work: dictionary sentiment, VADER, FinBERT scoring, and LDA topic features.</li>
+                <li>Compared sentiment feature sets using time-aware Logistic Regression and XGBoost pipelines.</li>
+                <li>Found weak, unstable, regime-dependent signal: best held-out balanced accuracy was 51.4%.</li>
+                <li>Reported the most promising backtest cautiously: Logit + FinBERT returned 13.1% versus 7.0% buy-and-hold, but depended on threshold and regime choices.</li>
+              </ul>
+              <div class="link-row">
+                <a href="https://github.com/Guojiawei-01/sp500" target="_blank" rel="noreferrer">Repository</a>
+                <a href="https://github.com/Guojiawei-01/sp500/tree/main/presentation" target="_blank" rel="noreferrer">Presentation Dashboard</a>
+                <a href="https://github.com/Guojiawei-01/sp500/blob/main/CONTRIBUTIONS.md" target="_blank" rel="noreferrer">Contribution Record</a>
+              </div>
+            </div>
+            <figure class="project-visual">
+              <img
+                src="assets/images/sp500-sentiment-method-comparison.png"
+                alt="S&P 500 project sentiment method comparison chart"
+              />
+              <figcaption>Sentiment method comparison from the capstone analysis.</figcaption>
+            </figure>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <div class="project-kicker">STAT 474 Machine Learning Final Project</div>
+              <h3>Predicting Bank Term Deposit Subscription Under Class Imbalance</h3>
+              <p>
+                A supervised learning project on UCI Bank Marketing data, focused on identifying
+                likely term-deposit subscribers when the positive class is rare.
+              </p>
+              <div class="metric-row">
+                <div><strong>41,188</strong><span>observations</span></div>
+                <div><strong>11.27%</strong><span>positive class</span></div>
+                <div><strong>0.510</strong><span>best F1</span></div>
+              </div>
+              <ul class="project-list">
+                <li>Removed post-call duration to avoid leakage and treated pdays = 999 as a previous-contact indicator.</li>
+                <li>Compared Logistic Regression, LASSO, Naive Bayes, Random Forest, Weighted XGBoost, and PCA + Logistic.</li>
+                <li>Used five-fold cross-validation and out-of-fold threshold tuning before final held-out test evaluation.</li>
+                <li>Connected threshold choice to business value, call cost, false positives, and missed subscribers.</li>
+              </ul>
+              <div class="link-row">
+                <a href="assets/files/stat474-bank-marketing-slides.pptx">Download Slides</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <div class="project-kicker">DATA 498 Individual Poster Project</div>
+              <h3>Backtest Overfitting in Finance</h3>
+              <p>
+                A literature-based statistical communication project explaining how excessive
+                backtest trials can create false investment discoveries.
+              </p>
+              <div class="metric-row">
+                <div><strong>PSR</strong><span>significance tool</span></div>
+                <div><strong>DSR</strong><span>overfitting correction</span></div>
+                <div><strong>Poster</strong><span>visual summary</span></div>
+              </div>
+              <ul class="project-list">
+                <li>Analyzed multiple testing, selection bias, False Strategy Theorem, and Deflated Sharpe Ratio.</li>
+                <li>Translated a technical finance article into a poster designed for clear statistical communication.</li>
+                <li>Highlighted why reported Sharpe ratios can be misleading when the number of trials is undisclosed.</li>
+              </ul>
+              <div class="link-row">
+                <a href="assets/files/backtest-overfitting-poster.pdf">View Poster</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="band growth-band" id="growth">
+        <div class="section-heading">
+          <p class="eyebrow">DATA 498 Portfolio Growth</p>
+          <h2>How this portfolio developed during Senior Capstone.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <h3>Built a professional GitHub Pages portfolio</h3>
+            <p>Moved beyond a resume-style README into a structured project portfolio with evidence and links.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Added individual statistical communication work</h3>
+            <p>Included the backtest-overfitting poster to show research reading, critique, and visual explanation.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Documented capstone contribution</h3>
+            <p>Linked the S&amp;P 500 repository and contribution file to make my NLP role easy to verify.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Connected coursework to career readiness</h3>
+            <p>Presented projects around reproducibility, technical decisions, model evaluation, and communication.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="band experience-band">
+        <div class="section-heading">
+          <p class="eyebrow">Leadership & Experience</p>
+          <h2>Additional background.</h2>
+        </div>
+        <div class="experience-grid">
+          <article>
+            <h3>Deloitte Club</h3>
+            <p>Member and campus ambassador, organizing campus events and promoting career opportunities.</p>
+          </article>
+          <article>
+            <h3>Student Union, School of Data Science</h3>
+            <p>Head of Publicity Department from September 2023 to June 2025.</p>
+          </article>
+          <article>
+            <h3>CASI Level 1 Ski Instructor</h3>
+            <p>Level 1 certified instructor with experience in skill instruction and communication.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="band contact-band" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Open to data science, analytics, and machine learning opportunities.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:chenchaoran@arizona.edu">chenchaoran@arizona.edu</a>
+            <a href="https://github.com/chaoran162" target="_blank" rel="noreferrer">github.com/chaoran162</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
